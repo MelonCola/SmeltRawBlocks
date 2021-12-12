@@ -1,0 +1,21 @@
+recipes:
+- type: FURNACE #Only FURNACE or BLASTING allowed
+  from: RAW_IRON_BLOCK #Find materials here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+  to: IRON_BLOCK #Find materials here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+  XP: 6.3 #Default per ingot is 0.7, multiplied by 9
+  time: 1800 #Default per ingot is 200, multiplied by 9
+- type: FURNACE #Only FURNACE or BLASTING allowed
+  from: RAW_GOLD_BLOCK #Find materials here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+  to: GOLD_BLOCK #Find materials here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+  XP: 6.3 #Default per ingot is 0.7, multiplied by 9
+  time: 1800 #Default per ingot is 200, multiplied by 9
+- type: BLASTING #Only FURNACE or BLASTING allowed
+  from: RAW_IRON_BLOCK #Find materials here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+  to: IRON_BLOCK #Find materials here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+  XP: 6.3 #Default per ingot is 0.7, multiplied by 9
+  time: 900 #Default per ingot is 100, multiplied by 9
+- type: BLASTING #Only FURNACE or BLASTING allowed
+  from: RAW_GOLD_BLOCK #Find materials here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+  to: GOLD_BLOCK #Find materials here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+  XP: 6.3 #Default per ingot is 0.7, multiplied by 9
+  time: 900 #Default per ingot is 100, multiplied by 9

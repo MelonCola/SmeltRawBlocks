@@ -1,0 +1,5 @@
+name: SmeltRawBlocks
+main: net.iceblaze.SmeltRawBlocks.SmeltRawBlocks
+author: FrostTaco
+version: 1.0.0
+api-version: 1.18
